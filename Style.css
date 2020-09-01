@@ -67,7 +67,7 @@ html {
 	Custom active row color
 */
 .TcHmi_Controls_Beckhoff_TcHmiDatagrid-template-row.tchmi-datagrid-template-row.focused .tchmi-datagrid-template-cell {
-    background: rgba(251,126,20,1);
+    background: rgba(251,126,20,1) !important;
     opacity: 1;
     color: #4c6374;
     border-color: #EDEDED;

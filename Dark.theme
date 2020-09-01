@@ -6,11 +6,11 @@
           "angle": 135.0,
           "stopPoints": [
             {
-              "color": "rgba(107, 107, 107, 1)",
+              "color": "rgba(41, 41, 41, 1)",
               "stop": "0%"
             },
             {
-              "color": "rgba(48, 50, 52, 1)",
+              "color": "rgba(21, 21, 21, 1)",
               "stop": "100%"
             }
           ]
@@ -61,7 +61,7 @@
     "TcHmi.Controls.Beckhoff.TcHmiCombobox": {
       "attributes": {
         "BackgroundColor": {
-          "color": "rgba(74, 74, 74, 1)"
+          "color": "rgba(41, 41, 41, 1)"
         },
         "TextColor": {
           "color": "rgba(255, 255, 255, 1)"
@@ -209,7 +209,7 @@
     "TcHmi.Controls.Beckhoff.TcHmiTextbox": {
       "attributes": {
         "BackgroundColor": {
-          "color": "rgba(74, 74, 74, 1)"
+          "color": "rgba(41, 41, 41, 1)"
         },
         "TextColor": {
           "color": "rgba(255, 255, 255, 1)"

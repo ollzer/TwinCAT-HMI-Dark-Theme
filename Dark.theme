@@ -1,3 +1,234 @@
 ﻿{
+  "controlTypeValues": {
+    "TcHmi.Controls.Beckhoff.TcHmiButton": {
+      "attributes": {
+        "BackgroundColor": {
+          "angle": 135.0,
+          "stopPoints": [
+            {
+              "color": "rgba(107, 107, 107, 1)",
+              "stop": "0%"
+            },
+            {
+              "color": "rgba(48, 50, 52, 1)",
+              "stop": "100%"
+            }
+          ]
+        },
+        "TextColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "TcHmi.Controls.Beckhoff.TcHmiBarChart": {
+      "attributes": {
+        "BackgroundColor": {
+          "color": "rgba(29, 29, 29, 0.5019607)"
+        },
+        "GridLineColor": {
+          "color": "rgba(115, 115, 115, 1)"
+        },
+        "XAxisColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        },
+        "YAxisColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        },
+        "XLabelFontColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        },
+        "YLabelFontColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        },
+        "YAxisNameFontColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "TcHmi.Controls.Beckhoff.TcHmiCheckbox": {
+      "attributes": {
+        "TextColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        },
+        "ToggleStateIconColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "TcHmi.Controls.Beckhoff.TcHmiCombobox": {
+      "attributes": {
+        "BackgroundColor": {
+          "color": "rgba(74, 74, 74, 1)"
+        },
+        "TextColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        },
+        "DropDownToggleButtonArrowColor": {
+          "color": "rgba(74, 74, 74, 1)"
+        },
+        "DropDownBackgroundColor": {
+          "color": "rgba(74, 74, 74, 1)"
+        },
+        "DropDownTextColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        },
+        "DropDownToggleButtonBackgroundColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        },
+        "DropDownHighlightColor": {
+          "color": "rgba(251, 126, 20, 1)"
+        },
+        "DropDownHighlightTextColor": {
+          "color": "rgba(21, 21, 21, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "TcHmi.Controls.Beckhoff.TcHmiDatagrid": {
+      "attributes": {
+        "HeaderBackgroundColor": {
+          "color": "rgba(41, 41, 41, 1)"
+        },
+        "HeaderTextColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        },
+        "RowNumbersBackgroundColor": {
+          "color": "rgba(41, 41, 41, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "TcHmi.Controls.Beckhoff.TcHmiDateTimePicker": {
+      "attributes": {
+        "BackgroundColor": {
+          "color": "rgba(41, 41, 41, 0.3764705)"
+        }
+      },
+      "themedResources": {}
+    },
+    "TcHmi.Controls.Beckhoff.TcHmiEventGrid": {
+      "attributes": {
+        "BackgroundColor": {
+          "color": "rgba(41, 41, 41, 0.3764705)"
+        }
+      },
+      "themedResources": {}
+    },
+    "TcHmi.Controls.Beckhoff.TcHmiKeyboard": {
+      "attributes": {
+        "BackgroundColor": {
+          "color": "rgba(41, 41, 41, 0.3764705)"
+        },
+        "LabelColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        },
+        "LabelStrokeColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        },
+        "KeyBackgroundColor": {
+          "angle": 135.0,
+          "stopPoints": [
+            {
+              "color": "rgba(107, 107, 107, 1)",
+              "stop": "0%"
+            },
+            {
+              "color": "rgba(48, 50, 52, 1)",
+              "stop": "100%"
+            }
+          ]
+        }
+      },
+      "themedResources": {}
+    },
+    "TcHmi.Controls.Beckhoff.TcHmiLinearGauge": {
+      "attributes": {
+        "BackgroundColor": {
+          "color": "rgba(29, 29, 29, 0.5019607)"
+        },
+        "TickColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        },
+        "ValueColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        },
+        "ProgressForegroundColor": {
+          "color": "rgba(251, 126, 20, 1)"
+        },
+        "KnobColor": {
+          "color": "rgba(251, 126, 20, 1)"
+        },
+        "KnobArrowsColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        },
+        "LabelColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "TcHmi.Controls.Beckhoff.TcHmiLineChart": {
+      "attributes": {
+        "BackgroundColor": {
+          "color": "rgba(29, 29, 29, 0.5019607)"
+        },
+        "XAxisColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        },
+        "XLabelFontColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        },
+        "GridLineColor": {
+          "color": "rgba(115, 115, 115, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "TcHmi.Controls.Beckhoff.TcHmiRadioButton": {
+      "attributes": {
+        "TextColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        },
+        "RadioStateIconColor": {
+          "color": "rgba(251, 126, 20, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "TcHmi.Controls.Beckhoff.TcHmiTextblock": {
+      "attributes": {
+        "TextColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "TcHmi.Controls.Beckhoff.TcHmiTextbox": {
+      "attributes": {
+        "BackgroundColor": {
+          "color": "rgba(74, 74, 74, 1)"
+        },
+        "TextColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        }
+      },
+      "themedResources": {}
+    },
+    "TcHmi.Controls.Beckhoff.TcHmiTrendLineChart": {
+      "attributes": {
+        "BackgroundColor": {
+          "color": "rgba(41, 41, 41, 0.3764705)"
+        },
+        "XAxisColor": {
+          "color": "rgba(255, 255, 255, 1)"
+        }
+      },
+      "themedResources": {}
+    }
+  },
+  "controlClassValues": {},
   "$schema": "../../../Packages/Beckhoff.TwinCAT.HMI.Framework.12.742.0/runtimes/native1.12-tchmi/Schema/ThemeDescription.Schema.json"
 }

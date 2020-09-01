@@ -31,3 +31,44 @@ html {
     font-style: normal;
     font-weight: normal;
 }
+
+/**
+    Checkbox
+*/
+/*
+    Change checked box color
+*/
+.TcHmi_Controls_Beckhoff_TcHmiCheckbox.TcHmi_Controls_Beckhoff_TcHmiCheckbox-active .TcHmi_Controls_Beckhoff_TcHmiCheckbox-template, .tchmi-checkbox.tchmi-checkbox-active .tchmi-checkbox-template {
+    background: rgba(251,126,20,1) !important;
+}
+
+
+/**
+    Datagrid
+*/
+/*
+    Fix checkbox inside datagrid
+*/
+.TcHmi_Controls_Beckhoff_TcHmiDatagrid-template-cell input[type=checkbox]:checked + label, .tchmi-datagrid-template-cell input[type=checkbox]:checked + label {
+    background: url(./Images/checkbox.svg) center / 100% no-repeat, rgba(251,126,20,1) !important;
+}
+/*
+    Change template inside datagrid
+        - Cell background color
+        - Text color
+        - Borders
+*/
+.TcHmi_Controls_Beckhoff_TcHmiDatagrid-template-cell, .tchmi-datagrid-template-cell {
+    background: rgba(41,41,41,0.8) !important;
+    color: #ffffff !important;
+    border-color: #EDEDED;
+}
+/*
+	Custom active row color
+*/
+.TcHmi_Controls_Beckhoff_TcHmiDatagrid-template-row.tchmi-datagrid-template-row.focused .tchmi-datagrid-template-cell {
+    background: rgba(251,126,20,1);
+    opacity: 1;
+    color: #4c6374;
+    border-color: #EDEDED;
+}
